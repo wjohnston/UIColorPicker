@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37188F1B16A5BA2F00F16FC8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37188F1A16A5BA2F00F16FC8 /* Cocoa.framework */; };
+		37188F2516A5BA2F00F16FC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37188F2316A5BA2F00F16FC8 /* InfoPlist.strings */; };
+		37188F2716A5BA2F00F16FC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37188F2616A5BA2F00F16FC8 /* main.m */; };
+		37188F2B16A5BA2F00F16FC8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 37188F2916A5BA2F00F16FC8 /* Credits.rtf */; };
+		37188F2E16A5BA2F00F16FC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37188F2D16A5BA2F00F16FC8 /* AppDelegate.m */; };
+		37188F3116A5BA3000F16FC8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37188F2F16A5BA3000F16FC8 /* MainMenu.xib */; };
+		37188F3916A5BA3000F16FC8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37188F3816A5BA3000F16FC8 /* SenTestingKit.framework */; };
+		37188F3A16A5BA3000F16FC8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37188F1A16A5BA2F00F16FC8 /* Cocoa.framework */; };
+		37188F4216A5BA3000F16FC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37188F4016A5BA3000F16FC8 /* InfoPlist.strings */; };
+		37188F4516A5BA3000F16FC8 /* UIColorPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37188F4416A5BA3000F16FC8 /* UIColorPickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37188F3B16A5BA3000F16FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37188F0D16A5BA2F00F16FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37188F1516A5BA2F00F16FC8;
+			remoteInfo = UIColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37188F1616A5BA2F00F16FC8 /* UIColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37188F1A16A5BA2F00F16FC8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		37188F1D16A5BA2F00F16FC8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		37188F1E16A5BA2F00F16FC8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		37188F1F16A5BA2F00F16FC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37188F2216A5BA2F00F16FC8 /* UIColorPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIColorPicker-Info.plist"; sourceTree = "<group>"; };
+		37188F2416A5BA2F00F16FC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37188F2616A5BA2F00F16FC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37188F2816A5BA2F00F16FC8 /* UIColorPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColorPicker-Prefix.pch"; sourceTree = "<group>"; };
+		37188F2A16A5BA2F00F16FC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		37188F2C16A5BA2F00F16FC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37188F2D16A5BA2F00F16FC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37188F3016A5BA3000F16FC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		37188F3716A5BA3000F16FC8 /* UIColorPickerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIColorPickerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37188F3816A5BA3000F16FC8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		37188F3F16A5BA3000F16FC8 /* UIColorPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIColorPickerTests-Info.plist"; sourceTree = "<group>"; };
+		37188F4116A5BA3000F16FC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37188F4316A5BA3000F16FC8 /* UIColorPickerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIColorPickerTests.h; sourceTree = "<group>"; };
+		37188F4416A5BA3000F16FC8 /* UIColorPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColorPickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37188F1316A5BA2F00F16FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37188F1B16A5BA2F00F16FC8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37188F3316A5BA3000F16FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37188F3916A5BA3000F16FC8 /* SenTestingKit.framework in Frameworks */,
+				37188F3A16A5BA3000F16FC8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37188F0B16A5BA2F00F16FC8 = {
+			isa = PBXGroup;
+			children = (
+				37188F2016A5BA2F00F16FC8 /* UIColorPicker */,
+				37188F3D16A5BA3000F16FC8 /* UIColorPickerTests */,
+				37188F1916A5BA2F00F16FC8 /* Frameworks */,
+				37188F1716A5BA2F00F16FC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37188F1716A5BA2F00F16FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37188F1616A5BA2F00F16FC8 /* UIColorPicker.app */,
+				37188F3716A5BA3000F16FC8 /* UIColorPickerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37188F1916A5BA2F00F16FC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37188F1A16A5BA2F00F16FC8 /* Cocoa.framework */,
+				37188F3816A5BA3000F16FC8 /* SenTestingKit.framework */,
+				37188F1C16A5BA2F00F16FC8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37188F1C16A5BA2F00F16FC8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37188F1D16A5BA2F00F16FC8 /* AppKit.framework */,
+				37188F1E16A5BA2F00F16FC8 /* CoreData.framework */,
+				37188F1F16A5BA2F00F16FC8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		37188F2016A5BA2F00F16FC8 /* UIColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				37188F2C16A5BA2F00F16FC8 /* AppDelegate.h */,
+				37188F2D16A5BA2F00F16FC8 /* AppDelegate.m */,
+				37188F2F16A5BA3000F16FC8 /* MainMenu.xib */,
+				37188F2116A5BA2F00F16FC8 /* Supporting Files */,
+			);
+			path = UIColorPicker;
+			sourceTree = "<group>";
+		};
+		37188F2116A5BA2F00F16FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37188F2216A5BA2F00F16FC8 /* UIColorPicker-Info.plist */,
+				37188F2316A5BA2F00F16FC8 /* InfoPlist.strings */,
+				37188F2616A5BA2F00F16FC8 /* main.m */,
+				37188F2816A5BA2F00F16FC8 /* UIColorPicker-Prefix.pch */,
+				37188F2916A5BA2F00F16FC8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37188F3D16A5BA3000F16FC8 /* UIColorPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				37188F4316A5BA3000F16FC8 /* UIColorPickerTests.h */,
+				37188F4416A5BA3000F16FC8 /* UIColorPickerTests.m */,
+				37188F3E16A5BA3000F16FC8 /* Supporting Files */,
+			);
+			path = UIColorPickerTests;
+			sourceTree = "<group>";
+		};
+		37188F3E16A5BA3000F16FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37188F3F16A5BA3000F16FC8 /* UIColorPickerTests-Info.plist */,
+				37188F4016A5BA3000F16FC8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37188F1516A5BA2F00F16FC8 /* UIColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37188F4816A5BA3000F16FC8 /* Build configuration list for PBXNativeTarget "UIColorPicker" */;
+			buildPhases = (
+				37188F1216A5BA2F00F16FC8 /* Sources */,
+				37188F1316A5BA2F00F16FC8 /* Frameworks */,
+				37188F1416A5BA2F00F16FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIColorPicker;
+			productName = UIColorPicker;
+			productReference = 37188F1616A5BA2F00F16FC8 /* UIColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37188F3616A5BA3000F16FC8 /* UIColorPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37188F4B16A5BA3000F16FC8 /* Build configuration list for PBXNativeTarget "UIColorPickerTests" */;
+			buildPhases = (
+				37188F3216A5BA3000F16FC8 /* Sources */,
+				37188F3316A5BA3000F16FC8 /* Frameworks */,
+				37188F3416A5BA3000F16FC8 /* Resources */,
+				37188F3516A5BA3000F16FC8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37188F3C16A5BA3000F16FC8 /* PBXTargetDependency */,
+			);
+			name = UIColorPickerTests;
+			productName = UIColorPickerTests;
+			productReference = 37188F3716A5BA3000F16FC8 /* UIColorPickerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37188F0D16A5BA2F00F16FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Idea2Appstore;
+			};
+			buildConfigurationList = 37188F1016A5BA2F00F16FC8 /* Build configuration list for PBXProject "UIColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37188F0B16A5BA2F00F16FC8;
+			productRefGroup = 37188F1716A5BA2F00F16FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37188F1516A5BA2F00F16FC8 /* UIColorPicker */,
+				37188F3616A5BA3000F16FC8 /* UIColorPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37188F1416A5BA2F00F16FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37188F2516A5BA2F00F16FC8 /* InfoPlist.strings in Resources */,
+				37188F2B16A5BA2F00F16FC8 /* Credits.rtf in Resources */,
+				37188F3116A5BA3000F16FC8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37188F3416A5BA3000F16FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37188F4216A5BA3000F16FC8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37188F3516A5BA3000F16FC8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37188F1216A5BA2F00F16FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37188F2716A5BA2F00F16FC8 /* main.m in Sources */,
+				37188F2E16A5BA2F00F16FC8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37188F3216A5BA3000F16FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37188F4516A5BA3000F16FC8 /* UIColorPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37188F3C16A5BA3000F16FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37188F1516A5BA2F00F16FC8 /* UIColorPicker */;
+			targetProxy = 37188F3B16A5BA3000F16FC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37188F2316A5BA2F00F16FC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37188F2416A5BA2F00F16FC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37188F2916A5BA2F00F16FC8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37188F2A16A5BA2F00F16FC8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		37188F2F16A5BA3000F16FC8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37188F3016A5BA3000F16FC8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		37188F4016A5BA3000F16FC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37188F4116A5BA3000F16FC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37188F4616A5BA3000F16FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37188F4716A5BA3000F16FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37188F4916A5BA3000F16FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColorPicker/UIColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "UIColorPicker/UIColorPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37188F4A16A5BA3000F16FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColorPicker/UIColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "UIColorPicker/UIColorPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37188F4C16A5BA3000F16FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIColorPicker.app/Contents/MacOS/UIColorPicker";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColorPicker/UIColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "UIColorPickerTests/UIColorPickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		37188F4D16A5BA3000F16FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIColorPicker.app/Contents/MacOS/UIColorPicker";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIColorPicker/UIColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "UIColorPickerTests/UIColorPickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37188F1016A5BA2F00F16FC8 /* Build configuration list for PBXProject "UIColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37188F4616A5BA3000F16FC8 /* Debug */,
+				37188F4716A5BA3000F16FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37188F4816A5BA3000F16FC8 /* Build configuration list for PBXNativeTarget "UIColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37188F4916A5BA3000F16FC8 /* Debug */,
+				37188F4A16A5BA3000F16FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37188F4B16A5BA3000F16FC8 /* Build configuration list for PBXNativeTarget "UIColorPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37188F4C16A5BA3000F16FC8 /* Debug */,
+				37188F4D16A5BA3000F16FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37188F0D16A5BA2F00F16FC8 /* Project object */;
+}
