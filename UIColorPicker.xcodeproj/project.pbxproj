@@ -17,6 +17,7 @@
 		37188F3A16A5BA3000F16FC8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37188F1A16A5BA2F00F16FC8 /* Cocoa.framework */; };
 		37188F4216A5BA3000F16FC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37188F4016A5BA3000F16FC8 /* InfoPlist.strings */; };
 		37188F4516A5BA3000F16FC8 /* UIColorPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37188F4416A5BA3000F16FC8 /* UIColorPickerTests.m */; };
+		37188F5116A5BEF500F16FC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37188F4F16A5BEF500F16FC8 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		37188F4116A5BA3000F16FC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37188F4316A5BA3000F16FC8 /* UIColorPickerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIColorPickerTests.h; sourceTree = "<group>"; };
 		37188F4416A5BA3000F16FC8 /* UIColorPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColorPickerTests.m; sourceTree = "<group>"; };
+		37188F4E16A5BEF500F16FC8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37188F4F16A5BEF500F16FC8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		37188F2016A5BA2F00F16FC8 /* UIColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				37188F4E16A5BEF500F16FC8 /* ViewController.h */,
+				37188F4F16A5BEF500F16FC8 /* ViewController.m */,
 				37188F2C16A5BA2F00F16FC8 /* AppDelegate.h */,
 				37188F2D16A5BA2F00F16FC8 /* AppDelegate.m */,
 				37188F2F16A5BA3000F16FC8 /* MainMenu.xib */,
@@ -263,6 +268,7 @@
 			files = (
 				37188F2716A5BA2F00F16FC8 /* main.m in Sources */,
 				37188F2E16A5BA2F00F16FC8 /* AppDelegate.m in Sources */,
+				37188F5116A5BEF500F16FC8 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
